@@ -1,0 +1,27 @@
+body{
+    background-color: #000;
+}
+
+/*
+.block{
+    text-align: center;
+    
+}
+*/
+
+.block{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block__text{
+    color: #fff;
+    font-size: 15vh;
+}
+
+.block__weather{
+    color: #fff;
+    font-size: 15vh;
+}
